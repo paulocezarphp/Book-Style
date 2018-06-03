@@ -1,0 +1,79 @@
+
+  .light{
+    color: #222;
+	background: #fff;
+  }
+  
+  .menubardark{
+        position:fixed;
+	right: 5px;
+	bottom: 5px;
+	padding: 5px 8px;
+        cursor: pointer;
+        background: #dedede;
+        border-left:2px solid #999;
+  }
+  
+  .menubarlight{
+        position:fixed;
+	right: 55px;
+	bottom: 5px;
+	padding: 5px;
+        cursor: pointer;
+        background:#dedede;
+        border-left:2px solid #999;
+  }
+ 
+  .menubara1{
+        position:fixed;
+	right: 110px;
+	bottom: 5px;
+	padding: 5px 15px;
+        cursor: pointer;
+        background:#dedede;
+        border-right:2px solid #999;
+  }
+
+  .menubara2{
+        position:fixed;
+	right: 155px;
+	bottom: 5px;
+	padding: 5px 15px;
+        cursor: pointer;
+        background:#dedede;
+        border-left:2px solid #999;
+  }
+
+  .menubara3{
+       position:fixed;
+	   right: 195px;
+       bottom: 5px;
+	   padding: 5px 15px;
+       cursor: pointer;
+       background:#dedede;
+       border-left:2px solid #999;
+  }
+
+  .bot:hover{
+       opacity:0.85;
+       -moz-opacity: 0.85;
+       filter: alpha(opacity=85);
+  } 
+
+  .bot:active{
+       opacity:0.96;
+       -moz-opacity: 0.96;
+       filter: alpha(opacity=96);
+       -webkit-touch-callout: none;
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+  } 
+  
+  body{
+    
+     padding: 15px;
+
+  }
